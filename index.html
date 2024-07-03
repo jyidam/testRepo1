@@ -6,7 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        #very{color: blueviolet;}
+        #today{color: blueviolet;}
+        .big{font-size: larger;}
     </style>
 </head>
 <body>
@@ -28,11 +29,11 @@
                 <td><input id="username" type="text" name="username"></td>
             </tr>
             <tr>
-                <td><p>오늘의 기분</p></td>
+                <td><p id="today">오늘의 기분</p></td>
                 <td>
-                    <input id="good" type="radio" name="today" value="g"> 
+                    <input id="good" type="radio" name="today" value="g" class="big"> 
                     <label for="good">해피</label> 
-                    <input id="very" type="radio" name="today" value="v"> 
+                    <input id="very" type="radio" name="today" value="v" class="big"> 
                     <label for="very">베리해피</label>
                 </td>
             </tr>
